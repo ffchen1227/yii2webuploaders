@@ -1,0 +1,20 @@
+{
+    "name": "ffchen/webuploader",
+	"description": "利用webuploader 的小部件 多图上传可拖动排序位置",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","webuploader"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ffchen",
+            "email": "736775818@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ffchen\\webuploader\\": ""
+        }
+    }
+}
