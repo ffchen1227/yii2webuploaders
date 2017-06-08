@@ -8,7 +8,11 @@ $ php composer.phar require ffchen/webuploader "*"
 使用
 
 控制器
+
+
+
 public function actions()
+
     {
         return [
             'uploads'=>[
@@ -19,6 +23,8 @@ public function actions()
             ]
         ];
     }
+
+
 
 
 <?php $form = ActiveForm::begin(); ?>
