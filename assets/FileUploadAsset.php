@@ -1,6 +1,6 @@
 <?php
 
-namespace common\widgets\file\assets;
+namespace ffchen\webuploader\assets;
 
 use Yii;
 use yii\web\AssetBundle;
