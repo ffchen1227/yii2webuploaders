@@ -21,7 +21,7 @@ class FileInput extends InputWidget
     public function init()
     {
         $_config = [
-            'serverUrl' => Url::to(['upload','action'=>'uploadimage']),  //上传服务器地址
+            'serverUrl' => Url::to(['uploads','action'=>'uploadimage']),  //上传服务器地址
             'fileName' => 'file',                                      //提交的图片表单名称
             'domain_url' => '',                                          //图片域名 不填为当前域名
         ];
