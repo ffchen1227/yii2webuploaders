@@ -45,6 +45,27 @@ public function actions()
     
 <?php ActiveForm::end(); ?>
 ```
+------------
+如果是多图情况在保存入库下把字段序列化后保存例如
+
+```
+            //Create
+            $imaes = explode(',',Yii::$app->request->post()['Imag']['srcs']);
+            for($index=0;$index<count($imaes);$index++)
+            {
+                $imaes[$index];
+            }
+            $model->srcs = serialize($imaes);
+            
+            
+            //Update
+            $imaes = explode(',',Yii::$app->request->post()['Imag']['srcs']);
+            for($index=0;$index<count($imaes);$index++)
+            {
+                $imaes[$index];
+            }
+            $model->srcs = serialize($imaes);
+```
 
 ------------
-不足之处见谅
+不足之处请见谅
