@@ -20,7 +20,7 @@ public function actions()
 
    {
         return [
- ? ? ? ? ?  'uploads'=>[
+          'uploads'=>[
                 'class' => 'ffchen\webuploader\UploadAction',
                 'config' => [
                     'imagePathFormat' => Yii::getAlias('@web')."/image/{yyyy}{mm}{dd}/{time}{rand:6}",
