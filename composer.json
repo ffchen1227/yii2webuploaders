@@ -1,8 +1,6 @@
 {
     "name": "ffchen/webuploader",
-	"description": "利用webuploader 的小部件 多图上传可拖动排序位置",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","webuploader"],
+    "description": "desc",
     "license": "MIT",
     "authors": [
         {
