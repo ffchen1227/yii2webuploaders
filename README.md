@@ -66,6 +66,10 @@ public function actions()
             }
             $model->srcs = serialize($imaes);
 ```
-
+------------
+一张效果图
+```
+ ![image](https://github.com/ffchen1227/yii2webuploader/20170608110057.jpg)
+ ```
 ------------
 不足之处请见谅
