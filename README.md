@@ -13,7 +13,7 @@ $ php composer.phar require ffchen/webuploader "*"
 
 public function actions()
 
-    {
+   {
         return [
             'uploads'=>[
                 'class' => 'ffchen\webuploader\UploadAction',
@@ -29,7 +29,7 @@ public function actions()
 
 <?php $form = ActiveForm::begin(); ?>
         
-    <?= $form->field($model, 'label_img')->widget('ffchen\webuploader\FileInput',[
+   <?= $form->field($model, 'label_img')->widget('ffchen\webuploader\FileInput',[
         'type' => 'images'//多图上传 不写或者写image 为单图
         'config'=>[
             //图片上传的一些配置，不写调用默认配置
