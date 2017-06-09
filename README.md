@@ -8,7 +8,7 @@ yii2 webuploader 上传widget  可拖动图片排序
 $ php composer.phar require ffchen/webuploader "*"
 
 //更新
-php composer.phar update vendor/ffchen
+
 
 ```
 
