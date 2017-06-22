@@ -20,7 +20,7 @@ $imageValue = rtrim($imageValue, ',');
                         <a class="img-link" href="<?php echo $image?>">
                             <img src="<?php echo $image?>" width="100">
                         </a>
-                        <i class="remove-picture glyphicon glyphicon-remove" data-id="<?=$attribute;?>"></i>
+                        <i class="remove-picture glyphicon glyphicon-remove" data-id="<?=$image;?>"></i>
                     </div>
                 <?php endforeach; ?>
             <?php endif; ?>
