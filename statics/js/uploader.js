@@ -52,8 +52,8 @@
             // 只允许选择图片文件。
             accept: {
                 title: 'Images',
-                extensions: $ext,
-                mimeTypes: 'image/jpg,image/jpeg,image/bmp,image/png,image/gif'
+                extensions: $ext,           
+				mimeTypes:'image/*,text/plain,application/msword,application/octet-stream,application/vnd.ms-excel,application/x-shockwave-flash'
             }
         });
 
